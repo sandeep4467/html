@@ -9,22 +9,27 @@
   font-family: "Averta-LightItalic";
   src: url("https://anima-uploads.s3.amazonaws.com/projects/5d5d99435473bdb2261b2386/releases/5e0ea3035784525d9f67945b/fonts/Averta Light Italic.otf") format("opentype");
 }
+
 @font-face {
   font-family: "Averta-Light";
   src: url("https://anima-uploads.s3.amazonaws.com/projects/5d5d99435473bdb2261b2386/releases/5dc3879cb7fb5ea99a6142e7/fonts/Averta Light.otf") format("opentype");
 }
+
 @font-face {
   font-family: "Averta-Semibold";
   src: url("https://anima-uploads.s3.amazonaws.com/projects/5d5d99435473bdb2261b2386/releases/5dc3879cb7fb5ea99a6142e7/fonts/Averta Semibold.otf") format("opentype");
 }
+
 @font-face {
   font-family: "Averta-Regular";
   src: url("https://anima-uploads.s3.amazonaws.com/projects/5d5d99435473bdb2261b2386/releases/5dc3879cb7fb5ea99a6142e7/fonts/Averta.otf") format("opentype");
 }
+
 @font-face {
   font-family: "Averta-Black";
   src: url("https://anima-uploads.s3.amazonaws.com/projects/5d5d99435473bdb2261b2386/releases/5e0fb2c25b9cb3f556b577c8/fonts/Averta Black.otf") format("opentype");
 }
+
 .mobile {
   display: none;
 }
@@ -38,6 +43,10 @@
   background: #fcba5d !important;
 }
 
+#landing-page #main-text h1 br {
+  display: none;
+}
+
 #landing-page {
   background-image: url("../reach-background.png");
   background-color: #cccccc;
@@ -46,32 +55,39 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 #landing-page #main-bar {
   width: 1200px;
   margin: auto;
   display: flex;
   justify-content: space-between;
 }
+
 #landing-page #main-bar .logo {
   display: flex;
   align-items: center;
 }
+
 #landing-page #main-bar .logo img {
   width: 154px;
   margin-left: 10px;
 }
+
 #landing-page #main-bar nav {
   display: flex;
   height: 70px;
 }
+
 #landing-page #main-bar nav ul {
   display: flex;
   align-items: center;
 }
+
 #landing-page #main-bar nav ul li {
   margin-left: 0px;
   list-style: none;
 }
+
 #landing-page #main-bar nav ul li a {
   text-decoration: none;
   color: white;
@@ -81,6 +97,7 @@
   position: relative;
   padding: 0 15px;
 }
+
 #landing-page #main-bar nav ul li a:before {
   content: "";
   display: block;
@@ -94,27 +111,34 @@
   transition: all 0.2s ease-in-out 0s;
   opacity: 0;
 }
+
 #landing-page #main-bar nav ul li a:hover:before {
   opacity: 1;
 }
+
 #landing-page #main-bar nav ul li:first-child {
   width: 147px;
   text-align: center;
 }
+
 #landing-page #main-bar nav ul li:last-child {
   background: #f99f22;
   border-radius: 4px;
   cursor: pointer;
 }
+
 #landing-page #main-bar nav ul li:last-child:hover {
   background: #fcba5d;
 }
+
 #landing-page #main-bar nav ul li:last-child a {
   padding: 5px 20px;
 }
+
 #landing-page #main-bar nav ul li:last-child a:hover:before {
   opacity: 0;
 }
+
 #landing-page #main-text {
   height: 516px;
   display: flex;
@@ -123,15 +147,18 @@
   flex-direction: column;
   color: white;
 }
+
 #landing-page #main-text h1 {
   font-size: 56px;
   font-weight: normal;
 }
+
 #landing-page #main-text h2 {
   font-size: 30px;
   font-weight: normal;
   line-height: 64px;
 }
+
 #landing-page #main-text a {
   margin-top: 34px;
   font-size: 22px;
@@ -144,6 +171,7 @@
   padding-bottom: 12px;
   transition: all 0.2s ease-in-out 0s;
 }
+
 #landing-page #main-text a:hover {
   color: rgba(249, 159, 34, 0.7);
   border-bottom: 2px solid #fcba5d;
@@ -154,6 +182,7 @@
   grid-template-columns: 1fr 1fr;
   height: 500px;
 }
+
 #about-us #part-1 {
   background: #f1efef;
   padding: 70px 30px;
@@ -164,6 +193,7 @@
   justify-items: center;
   justify-content: space-around;
 }
+
 #about-us #part-1 #about-us-content {
   width: 520px;
   height: 100%;
@@ -174,17 +204,20 @@
   float: left;
   align-self: flex-end;
 }
+
 #about-us #part-1 #about-us-content h3 {
   color: #004c6a;
   font-size: 30px;
   font-family: "Averta-Semibold", Helvetica, Arial, serif;
 }
+
 #about-us #part-1 #about-us-content p {
   font-size: 22px;
   line-height: 26px;
   color: #212121;
   font-family: "Averta-Light", Helvetica, Arial, serif;
 }
+
 #about-us #part-2 {
   display: flex;
   flex-direction: column;
@@ -192,10 +225,12 @@
   padding: 80px 0px;
   padding-bottom: 150px;
 }
+
 #about-us #part-2 .percent-line {
   display: flex;
   padding-left: 50px;
 }
+
 #about-us #part-2 .percent-line .percentage {
   color: #004c6a;
   font-family: "Averta-Black", Helvetica, Arial, serif;
@@ -204,6 +239,7 @@
   font-weight: 900;
   margin-right: 25px;
 }
+
 #about-us #part-2 .percent-line .content {
   color: #212121;
   line-height: 26px;
@@ -211,6 +247,7 @@
   font-family: "Averta-Regular", Helvetica, Arial, serif;
   width: 300px;
 }
+
 #about-us #part-2 .percent-line:first-child {
   padding-left: 30px;
 }
@@ -220,12 +257,14 @@
   text-align: center;
   padding-top: 100px;
 }
+
 #contact h2 {
   color: #004c6a;
   font-size: 42px;
   line-height: 46px;
   font-family: "Averta-Semibold", Helvetica, Arial, serif;
 }
+
 #contact p {
   line-height: 26px;
   font-size: 22px;
@@ -234,6 +273,7 @@
   margin-top: 20px;
   margin-bottom: 40px;
 }
+
 #contact form {
   width: 980px;
   display: grid;
@@ -241,7 +281,8 @@
   grid-gap: 20px;
   margin: auto;
 }
-#contact form input {
+
+#contact form input, #contact form textarea {
   border: 1px solid #e6e6e6;
   background: white;
   height: 55px;
@@ -257,10 +298,12 @@
   background-position: 458px 10px;
   text-indent: 20px;
 }
+
 #contact form #message {
   grid-column: 1/-1;
   background-position: 958px 10px;
 }
+
 #contact form #comment {
   grid-column: 1/-1;
   height: 16px;
@@ -268,10 +311,12 @@
   font-family: "Averta-Light", Helvetica, Arial, serif;
   color: #aeaeae;
 }
+
 #contact form #comment img {
   width: 10px;
   margin-right: 10px;
 }
+
 #contact form #submit {
   width: 380px;
   height: 50px;
@@ -291,6 +336,7 @@
   background-color: #004c6a;
   height: 20px;
 }
+
 #brands #brand-content {
   background-color: #f1f2f4;
   height: 242px;
@@ -298,6 +344,7 @@
   justify-content: center;
   align-items: center;
 }
+
 #brands #brand-content img {
   width: 280px;
   margin: 0px 10px;
@@ -312,11 +359,13 @@
   font-size: 30px;
   line-height: 34px;
 }
+
 #testimonials #testi-content {
   width: 900px;
   height: 371px;
   margin: auto;
 }
+
 #testimonials #testi-content .testimonial {
   background-color: #eef9fa;
   border-radius: 4px;
@@ -331,46 +380,54 @@
   padding-bottom: 40px;
   grid-gap: 40px;
 }
-#testimonials #testi-content .testimonial #testi-part-1 {
+
+#testimonials #testi-content .testimonial .testi-part-1 {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   text-align: center;
   align-self: start;
 }
-#testimonials #testi-content .testimonial #testi-part-1 img {
+
+#testimonials #testi-content .testimonial .testi-part-1 img {
   width: 188px;
 }
-#testimonials #testi-content .testimonial #testi-part-1 h6 {
+
+#testimonials #testi-content .testimonial .testi-part-1 h6 {
   font-size: 16px;
   line-height: 20px;
   font-family: "Averta-Regular", Helvetica, Arial, serif;
   color: #212121;
   margin-top: 10px;
 }
-#testimonials #testi-content .testimonial #testi-part-1 p:first-of-type {
+
+#testimonials #testi-content .testimonial .testi-part-1 p:first-of-type {
   font-size: 12px;
   line-height: 16px;
   font-family: "Averta-Light", Helvetica, Arial, serif;
   color: #212121;
   margin-top: 10px;
 }
-#testimonials #testi-content .testimonial #testi-part-1 p:last-of-type {
+
+#testimonials #testi-content .testimonial .testi-part-1 p:last-of-type {
   font-size: 12px;
   line-height: 16px;
   font-family: "Averta-Regular", Helvetica, Arial, serif;
   color: #212121;
   margin-top: 10px;
 }
-#testimonials #testi-content .testimonial #testi-part-1 .review {
+
+#testimonials #testi-content .testimonial .testi-part-1 .review {
   margin-top: 10px;
   display: flex;
   justify-content: center;
 }
-#testimonials #testi-content .testimonial #testi-part-1 .review img {
+
+#testimonials #testi-content .testimonial .testi-part-1 .review img {
   width: 20px;
 }
-#testimonials #testi-content #testi-part-2 {
+
+#testimonials #testi-content .testi-part-2 {
   font-size: 16px;
   line-height: 20px;
   color: #212121;
@@ -378,29 +435,36 @@
   font-style: italic;
   align-self: start;
 }
+
 #testimonials #testi-content .owl-nav {
   position: absolute;
   top: 170px;
 }
+
 #testimonials #testi-content .owl-nav .owl-next {
   right: -870px;
   position: absolute;
 }
+
 #testimonials #testi-content .owl-nav .owl-next img {
   width: 12px;
 }
+
 #testimonials #testi-content .owl-nav .owl-prev {
   right: -35px;
   position: absolute;
 }
+
 #testimonials #testi-content .owl-nav .owl-prev img {
   width: 12px;
 }
+
 #testimonials #testi-content .owl-dots {
   height: 100px;
   text-align: center;
   margin-top: 20px;
 }
+
 #testimonials #testi-content .owl-dots .owl-dot {
   border: 1px solid grey;
   border-radius: 50%;
@@ -408,14 +472,75 @@
   height: 13px;
   margin: 4px;
 }
+
 #testimonials #testi-content .owl-dots .active {
   background: #f99f22;
+}
+
+button.showmodal {
+  background: no-repeat;
+  border: 0;
+  color: rgba(249, 159, 34, 1.0);
+  font-size: 16px;
+  margin-top: 13px;
+  cursor: pointer;
+  outline: none;
+  display: none;
+}
+
+.custom-modal {
+  position: fixed;
+  width: 360px;
+  height: 395px;
+  background: rgba(239, 249, 250, 1.0);
+  padding: 27px;
+  border-radius: 4px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 999;
+  display: none;
+}
+
+.modal-background {
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  z-index: 99;
+  display: none;
+}
+
+div#modal-body {
+  color: rgba(33, 33, 33, 1.0);
+  font-size: 16px;
+  font-style: italic;
+}
+
+button.close-modal {
+  background: none;
+  border: 0;
+  position: absolute;
+  right: 9px;
+  text-indent: -9999px;
+  background-image: url(../images/close@2x.png);
+  background-position: top;
+  background-size: 100%;
+  width: 24px;
+  height: 24px;
+  top: 9px;
+  outline: none;
 }
 
 #pricing-plans {
   background-color: #eef9fa;
   height: 950px;
 }
+
 #pricing-plans h3 {
   text-align: center;
   color: #004c6a;
@@ -426,6 +551,7 @@
   font-size: 30px;
   line-height: 34px;
 }
+
 #pricing-plans p {
   font-size: 16px;
   line-height: 20px;
@@ -433,6 +559,7 @@
   font-family: "Averta-Light", Helvetica, Arial, serif;
   text-align: center;
 }
+
 #pricing-plans #all-plans {
   width: 1000px;
   display: grid;
@@ -442,6 +569,7 @@
   grid-gap: 20px;
   margin-top: 20px;
 }
+
 #pricing-plans #all-plans #labels {
   padding-top: 70px;
   display: flex;
@@ -451,6 +579,7 @@
   justify-content: space-around;
   align-items: flex-end;
 }
+
 #pricing-plans #all-plans #labels p {
   text-align: right;
   font-size: 16px;
@@ -458,6 +587,7 @@
   font-family: "Averta-Regular", Helvetica, Arial, serif;
   color: #212121;
 }
+
 #pricing-plans #all-plans .plan {
   background: white;
   width: 270px;
@@ -465,6 +595,7 @@
   border-radius: 4px;
   height: 573px;
 }
+
 #pricing-plans #all-plans .plan h2 {
   font-size: 28px;
   line-height: 28px;
@@ -472,6 +603,7 @@
   padding: 20px 0px;
   border-bottom: 1.5px solid #d4d4d4;
 }
+
 #pricing-plans #all-plans .plan .content-plans {
   display: flex;
   flex-direction: column;
@@ -479,15 +611,18 @@
   height: 87%;
   justify-content: space-around;
 }
+
 #pricing-plans #all-plans .plan .content-plans img {
   width: 23px;
 }
+
 #pricing-plans #all-plans .plan .content-plans p {
   font-size: 22px;
   line-height: 24px;
   color: #212121;
   font-family: "Averta-Regular", Helvetica, Arial, serif;
 }
+
 #pricing-plans #notes {
   text-align: center;
   color: #212121;
@@ -499,15 +634,18 @@
   align-items: center;
   justify-content: center;
 }
+
 #pricing-plans #notes img {
   width: 10px;
 }
+
 #pricing-plans #contact-btn {
   display: flex;
   justify-content: center;
   margin-bottom: -10px;
 }
-#pricing-plans #contact-btn button {
+
+#pricing-plans #contact-btn a {
   width: 380px;
   height: 50px;
   background: #f99f22;
@@ -515,11 +653,13 @@
   color: white;
   font-family: "Averta-Semibold", Helvetica, Arial, serif;
   font-size: 22px;
-  line-height: 26px;
+  line-height: 51px;
   justify-self: center;
   margin-top: 40px;
   grid-column: 1/-1;
   border: none;
+  text-decoration: none;
+  text-align: center;
 }
 
 #services {
@@ -528,6 +668,7 @@
   text-align: center;
   margin: auto;
 }
+
 #services h2 {
   color: #004c6a;
   font-size: 30px;
@@ -535,6 +676,7 @@
   font-family: "Averta-Regular", Helvetica, Arial, serif;
   margin-top: 70px;
 }
+
 #services p {
   margin: auto;
   color: #212121;
@@ -545,6 +687,7 @@
   text-align: left;
   margin-top: 20px;
 }
+
 #services h3 {
   color: #212121;
   line-height: 30px;
@@ -553,38 +696,48 @@
   margin-top: 30px;
   font-weight: initial;
 }
+
 #services #service-icons {
   display: flex;
   justify-content: center;
   text-align: center;
   margin-top: 40px;
 }
+
 #services #service-icons .service {
   display: flex;
   flex-direction: column;
   width: 380px;
   align-items: center;
 }
+
 #services #service-icons .service img {
   width: 180px;
 }
+
 #services #service-icons .service p {
   width: 380px;
   text-align: center;
 }
-#services #talk-btn button {
-  width: 380px;
-  height: 50px;
-  background: #f99f22;
-  border-radius: 4px;
-  color: white;
-  font-family: "Averta-Semibold", Helvetica, Arial, serif;
-  font-size: 22px;
-  line-height: 26px;
-  justify-self: center;
-  margin-top: 40px;
-  grid-column: 1/-1;
-  border: none;
+
+#services #talk-btn a {
+    width: 380px;
+    height: 50px;
+    background: #f99f22;
+    border-radius: 4px;
+    color: white;
+    font-family: "Averta-Semibold", Helvetica, Arial, serif;
+    font-size: 22px;
+    line-height: 47px;
+    justify-self: center;
+    margin-top: 40px;
+    grid-column: 1/-1;
+    border: none;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin: 40px auto 0 auto;
 }
 
 footer {
@@ -595,15 +748,18 @@ footer {
   padding-left: 270px;
   justify-content: center;
 }
+
 footer .logo {
   display: flex;
   align-items: center;
   margin-left: -10px;
 }
+
 footer .logo img {
   width: 154px;
   margin-left: 10px;
 }
+
 footer p {
   color: #aeaeae;
   font-size: 16px;
@@ -625,9 +781,11 @@ footer p {
   align-items: center;
   flex-wrow: column;
 }
+
 .drop-down li {
   line-height: 30px;
 }
+
 .drop-down a {
   color: #204056;
   font-weight: bold;
@@ -640,12 +798,74 @@ footer p {
   border: none;
   cursor: pointer;
   width: 30px;
+  display: none;
 }
+
 .btn02 img {
   width: 30px;
 }
 
-@media only screen and (max-width: 1200px) {
+/**Hubspot Form **/
+#contact form {
+  display: block;
+}
+
+fieldset.form-columns-2 {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+#contact form input {
+  width: 100%;
+}
+
+.hs-form-field {
+  position: relative;
+}
+
+span.hs-form-required {
+  position: absolute;
+  right: 0;
+  opacity: 0;
+}
+
+#contact form input {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+fieldset.form-columns-1 {
+  width: 100%;
+  max-width: 100% !important;
+}
+
+#contact form textarea {
+  width: 100%;
+  padding: 12px 0;
+  background-position: 98.5% 10px;
+}
+
+#contact form input.hs-button.primary.large {
+  width: 380px;
+  height: 50px;
+  background: #f99f22;
+  border-radius: 4px;
+  color: white;
+  font-family: "Averta-Semibold", Helvetica, Arial, serif;
+  font-size: 22px;
+  line-height: 26px;
+  justify-self: center;
+  margin-top: 20px;
+  grid-column: 1/-1;
+  margin-bottom: 80px;
+}
+
+@media only screen and (max-width:1200px) {
+  #landing-page #main-bar {
+    padding: 30px 0;
+    width: 850px;
+  }
+
   .desktop {
     display: none !important;
   }
@@ -657,16 +877,22 @@ footer p {
   #landing-page {
     height: 508px;
   }
+
   #landing-page #main-bar {
     width: 850px;
+    padding: 30px 0;
   }
+
   #landing-page #main-text {
     height: 425px;
   }
+
   #landing-page #main-text h2 {
     font-family: "Averta-Light", Helvetica, Arial, serif;
-    font-size: 28px;
+    font-size: 24px;
+    line-height: 45px;
   }
+
   #landing-page #main-text a {
     width: 380px;
     height: 50px;
@@ -685,6 +911,7 @@ footer p {
     align-items: center;
     padding: 0px;
   }
+
   #landing-page #main-text a:hover {
     color: white;
     border-bottom: 0px;
@@ -694,10 +921,12 @@ footer p {
   #about-us {
     height: 610px;
   }
+
   #about-us #part-1 {
     padding: 70px 35px;
     padding-left: 0px;
   }
+
   #about-us #part-1 #about-us-content {
     width: 350px;
     height: 100%;
@@ -708,19 +937,33 @@ footer p {
     float: left;
     align-self: flex-end;
   }
+
   #about-us #part-1 #about-us-content p {
     margin-top: 25px;
+    font-size: 18px;
   }
+
   #about-us #part-2 .percent-line .content {
     width: 231px;
+    font-size: 20px;
+  }
+
+  #about-us #part-2 .percent-line .percentage {
+    font-size: 36px;
+  }
+
+  #contact form input.hs-button.primary.large {
+    width: 348px;
   }
 
   #contact form {
     width: 780px;
   }
+
   #contact form input {
     background-position: 358px 10px;
   }
+
   #contact form #message {
     background-position: 758px 10px;
   }
@@ -732,12 +975,13 @@ footer p {
     flex-direction: column;
     justify-content: space-between;
   }
+
   #brands #brand-content {
     height: 175px;
-    width: 600px;
     margin: auto;
     flex-wrap: wrap;
   }
+
   #brands #brand-content img {
     width: 247px;
   }
@@ -745,34 +989,42 @@ footer p {
   #pricing-plans {
     position: relative;
   }
+
   #pricing-plans #notes {
     margin-top: 60px;
   }
+
   #pricing-plans #all-plans {
     grid-gap: 80px;
     width: 750px;
     grid-template-columns: 300px 315px;
   }
+
   #pricing-plans #all-plans #labels p {
     font-size: 22px;
     color: #212121;
     text-align: right;
     line-height: 26px;
   }
+
   #pricing-plans #all-plans .plan {
     width: 315px;
   }
+
   #pricing-plans #all-plans .plan .contents-of-plan {
     height: 100%;
   }
+
   #pricing-plans #all-plans .plan .content-plans h2 {
     width: 100%;
   }
+
   #pricing-plans .all-plans-2 .slick-dots {
     display: flex;
     top: 590px;
     left: -35px;
   }
+
   #pricing-plans .all-plans-2 .slick-dots li {
     border: 1px solid grey;
     border-radius: 50%;
@@ -780,6 +1032,7 @@ footer p {
     height: 13px;
     margin: 4px;
   }
+
   #pricing-plans .all-plans-2 .slick-dots .slick-active {
     background: #f99f22;
   }
@@ -787,6 +1040,7 @@ footer p {
   #plan-container {
     position: relative;
   }
+
   #plan-container #slide-next {
     position: absolute;
     width: 13px;
@@ -794,6 +1048,7 @@ footer p {
     top: 278px;
     cursor: pointer;
   }
+
   #plan-container #slide-prev {
     position: absolute;
     width: 13px;
@@ -811,23 +1066,31 @@ footer p {
   #services {
     width: 780px;
   }
+
   #services p {
-    width: 680px;
+    width: 100%;
+    font-size: 19px;
   }
+
   #services #service-icons {
     margin-top: 40px !important;
     width: 780px;
     margin: auto;
     justify-content: space-between;
   }
+
   #services #service-icons .service {
-    width: 113px;
+    width: 33%;
   }
+
   #services #service-icons .service p {
     width: 145px;
-    margin-left: -18px;
+    margin-left: 0;
     font-family: "Averta-Regular", Helvetica, Arial, serif;
+    text-align: center;
+    width: 100%;
   }
+
   #services #service-icons .service img {
     width: 113px;
   }
@@ -835,14 +1098,267 @@ footer p {
   footer {
     padding-left: 100px;
   }
+
   footer p {
     width: 760px;
   }
+
+  #services #talk-btn button {
+    width: 348px;
+  }
+
 }
-@media only screen and (max-width: 900px) {
+
+@media only screen and (max-width:899px) {
+  #landing-page #main-text h1 br {
+    display: block;
+  }
+
+  #landing-page #main-text h1 {
+    text-align: center;
+  }
+
   #landing-page #main-bar {
     width: 450px;
   }
+
+  button.showmodal {
+    display: block;
+  }
+
+  #testimonials #testi-content .testi-part-2 {
+    display: none;
+  }
+
+  #testimonials #testi-content {
+    width: 400px;
+  }
+
+  #testimonials #testi-content .testimonial {
+    width: 215px;
+    padding: 14px;
+  }
+
+  #testimonials #testi-content .owl-nav .owl-next {
+    right: -369px;
+  }
+
+  #testimonials #testi-content .owl-dots {
+    height: auto;
+  }
+
+  #testimonials #testi-content {
+    height: auto;
+  }
+
+  #pricing-plans h3 {
+    margin-top: 0;
+  }
+
+  section#testimonials {
+    padding-bottom: 50px;
+  }
+
+  footer p {
+    width: auto;
+  }
+
+  #pricing-plans #all-plans #labels {
+    display: none;
+  }
+
+  #pricing-plans #all-plans {
+    grid-gap: unset;
+    width: 400px;
+    grid-template-columns: none;
+    display: block;
+  }
+
+  #plan-container #slide-prev {
+    right: 421px;
+  }
+
+  #landing-page #main-bar nav {
+    display: none;
+  }
+
+  .btn02 {
+    display: block;
+  }
+
+  .slick-slide {
+    padding: 1px;
+  }
+
+}
+
+@media only screen and (max-width:767px) {
+  .btn02 {
+    display: block;
+  }
+
+  #about-us {
+    height: auto;
+    display: block;
+  }
+
+  #about-us #part-1 #about-us-content {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 0 15px;
+  }
+
+  #about-us #part-2 {
+    display: block;
+    padding: 40px 15px;
+  }
+
+  #about-us #part-2 .percent-line .content {
+    width: auto;
+    font-size: 20px;
+  }
+
+  #contact p {
+    padding: 0 15px;
+  }
+
+  #contact form textarea {
+    height: auto;
+  }
+
+  .percent-line {
+    padding: 0 !important;
+    margin: 15px 0px;
+  }
+
+  footer p {
+    width: 100%;
+  }
+
+  footer {
+    padding: 60px 15px;
+    box-sizing: border-box;
+  }
+
+  #services p {
+    padding: 0 15px;
+  }
+
+  #contact {
+    padding-top: 55px;
+  }
+
+  #services {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .hs-form-field {
+    width: 89% !important;
+    float: left;
+    float: none !important;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    left: 0;
+  }
+
+  #contact form {
+    width: 100%;
+  }
+
+  #contact form input {
+    background-position: 98.5% 10px;
+  }
+
+  .input {
+    margin: 0 !important;
+  }
+
+  #brands #brand-content {
+    height: auto;
+  }
+
+  #services #service-icons {
+    width: 100%;
+  }
+
+  footer p {
+    font-size: 19px;
+  }
+
+  footer p {
+    width: 100%;
+  }
+
+  #about-us #part-1 {
+    padding: 50px 0;
+    padding-left: 0px;
+  }
+
+}
+
+@media only screen and (max-width:640px) {
+  #landing-page #main-text a {
+    width: 343px;
+    height: 50px;
+    font-size: 20px;
+  }
+
+  #brands #brand-content img {
+    width: auto;
+    max-width: 236px;
+    margin: 10px 22px;
+  }
+
+  #services #service-icons .service {
+    margin: 20px 0;
+  }
+
+  #services {
+    height: auto;
+  }
+
+  #services #service-icons {
+    width: 100%;
+    display: block;
+  }
+
+  #services #service-icons .service {
+    width: 100%;
+    display: block;
+  }
+
+}
+
+@media only screen and (max-width:580px) {
+  #landing-page #main-bar {
+    max-width: 90%;
+  }
+
+  #landing-page #main-text a {
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+  }
+
+  #pricing-plans #all-plans {
+    width: 75%;
+  }
+
+  #testimonials #testi-content {
+    width: 75%;
+  }
+
+  #testimonials #testi-content .owl-nav .owl-next {
+    right: -275px;
+  }
+
+  #testimonials #testi-content .owl-nav .owl-prev {
+    right: -12px;
+  }
+
 }
 
 /*# sourceMappingURL=style.css.map */

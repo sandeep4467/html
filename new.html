@@ -17,29 +17,29 @@
       <div class="logo">
         <img src="logo.png" alt="">
       </div>
-      <nav class="desktop">
+      <nav>
         <ul>
-          <li><a href="">Why Us</a></li>
-          <li><a href="">Media Kit</a></li>
-          <li><a href="">Pricing</a></li>
-          <li id="contactBtn"><a href="">Contact us</a></li>
+          <li><a href="#about-us">Why Us</a></li>
+          <li><a href="#contact">Media Kit</a></li>
+          <li><a href="#pricing-plans">Pricing</a></li>
+          <li id="contactBtn"><a href="#contact">Contact us</a></li>
         </ul>
       </nav>
       <button class="btn02"><img src="images/mobile-nav.png" alt=""></button>
       <div class="drop-down mobile">
         <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Help</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#about-us">Why Us</a></li>
+          <li><a href="#contact">Media Kit</a></li>
+          <li><a href="#pricing-plans">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
         <h3 class="nav02">x</h3>
       </div>
     </div>
   <div id="main-text">
-    <h1>OUR REACH, YOUR BRAND</h1>
+    <h1>OUR REACH, <br> YOUR <br> BRAND</h1>
     <h2>Your story matters. We’ll tell it.</h2>
-    <a href="" id="callToAction"> CONTACT FOR MORE INFO </a>
+    <a href="#contact" id="callToAction"> CONTACT FOR MORE INFO </a>
   </div>
   </section>
 
@@ -91,17 +91,18 @@
   <section id="contact">
     <h2>Get Media Kit</h2>
     <p>One of our specialists will reach out to you within 24 hours.</p>
-    <form action="">
-       <input type="text" name="firstname" placeholder="John">
-       <input type="text" name="lastname" placeholder="Doe">
-       <input type="text" name="email" placeholder="Email address">
-       <input type="text" name="phone" placeholder="Phone number">
-       <input type="text" name="company" placeholder="Company name">
-       <input type="text" name="job" placeholder="Job title">
-       <input type="text" name="lastname" placeholder="Marketing objective / message" id="message">
-       <div id="comment"><img src="input-img.png" alt="">Required fields</div>
-       <input type="submit" value=" SEND ME THE MEDIA KIT " id="submit">
-    </form>
+
+    <!--[if lte IE 8]>
+    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+    <![endif]-->
+    <script charset="utf-8" type="text/javascript" src="https://js.hsforms.net/forms/v2.js"></script>
+    <script>
+    hbspt.forms.create({
+    portalId: "2786381",
+    formId: "882ec09d-79f5-47ec-b6fe-74c9fdc1a6a1",
+    css: "",
+    });
+    </script>
   </section>
 
   <section id="brands">
@@ -120,7 +121,7 @@
     <div id="testi-content" >
       <div class="owl-carousel">
       <div class="testimonial">
-        <div id="testi-part-1">
+        <div class="testi-part-1">
           <img src="images/testimonials/amelia.png" alt="">
           <h6>Amelia Cabal</h6>
           <p>Administrative Assistant</p>
@@ -132,13 +133,14 @@
             <img src="images/testimonials/star.png" alt="">
             <img src="images/testimonials/star.png" alt="">
           </div>
+          <button class="showmodal" data-target="testi-text-1">Show Testimonial</button>
         </div>
-        <div id="testi-part-2">
+        <div class="testi-part-2" id="testi-text-1">
           <p> We were so fortunate to find a partner like Benzinga. They have proven to be an invaluable asset to our company's content management and creation. With a giant team of financially savvy freelancers that were able to tackle almost any topic we gave to them, we expanded our content library and pushed trustworthy content to our growing network of followers. Beyond just the quality of writing, Jake provided a passion that cannot be matched. He constantly challenged my pitches and ideas to bring our voice and outreach to another level. I love working with Benzinga! </p>
         </div>
       </div>
       <div class="testimonial">
-        <div id="testi-part-1">
+        <div class="testi-part-1">
           <img src="images/testimonials/amelia.png" alt="">
           <h6>Amelia Cabal</h6>
           <p>Administrative Assistant</p>
@@ -150,13 +152,14 @@
             <img src="images/testimonials/star.png" alt="">
             <img src="images/testimonials/star.png" alt="">
           </div>
+          <button class="showmodal" data-target="testi-text-2">Show Testimonial</button>
         </div>
-        <div id="testi-part-2">
+        <div class="testi-part-2" id="testi-text-2">
           <p> We were so fortunate to find a partner like Benzinga. They have proven to be an invaluable asset to our company's content management and creation. With a giant team of financially savvy freelancers that were able to tackle almost any topic we gave to them, we expanded our content library and pushed trustworthy content to our growing network of followers. Beyond just the quality of writing, Jake provided a passion that cannot be matched. He constantly challenged my pitches and ideas to bring our voice and outreach to another level. I love working with Benzinga! </p>
         </div>
       </div>
       <div class="testimonial">
-        <div id="testi-part-1">
+        <div class="testi-part-1">
           <img src="images/testimonials/amelia.png" alt="">
           <h6>Amelia Cabal</h6>
           <p>Administrative Assistant</p>
@@ -168,8 +171,9 @@
             <img src="images/testimonials/star.png" alt="">
             <img src="images/testimonials/star.png" alt="">
           </div>
+          <button class="showmodal" data-target="testi-text-3">Show Testimonial</button>
         </div>
-        <div id="testi-part-2">
+        <div class="testi-part-2" id="testi-text-3">
           <p> We were so fortunate to find a partner like Benzinga. They have proven to be an invaluable asset to our company's content management and creation. With a giant team of financially savvy freelancers that were able to tackle almost any topic we gave to them, we expanded our content library and pushed trustworthy content to our growing network of followers. Beyond just the quality of writing, Jake provided a passion that cannot be matched. He constantly challenged my pitches and ideas to bring our voice and outreach to another level. I love working with Benzinga! </p>
         </div>
       </div>
@@ -246,7 +250,7 @@
         <img src="images/owl-next.png" alt="" id="slide-next" class="mobile">
         <img src="images/owl-prev.png" alt="" id="slide-prev" class="mobile">
       <div class="all-plans-2 mobile">
-      <div id="basic" class="plan desktop">
+      <div id="basic" class="plan">
         <h2>Basic</h2>
         <div class="content-plans">
           <p>1</p>
@@ -262,7 +266,7 @@
           <p>$2,500</p>
         </div>
       </div>
-      <div id="essential" class="plan desktop">
+      <div id="essential" class="plan">
         <h2>Essential</h2>
         <div class="content-plans">
           <p>2</p>
@@ -278,7 +282,7 @@
           <p>$7,500</p>
         </div>
       </div>
-      <div id="premium" class="plan desktop">
+      <div id="premium" class="plan">
         <h2>Premium</h2>
         <div class="content-plans">
           <p>4</p>
@@ -298,7 +302,9 @@
       </div>
     </div>
     <p id="notes"><img src="images/snow-dot.png" alt="">&nbsp;&nbsp;&nbsp;Monthly  &nbsp;&nbsp;&nbsp;&nbsp;<img src="images/snow-dot.png" alt=""><img src="images/snow-dot.png" alt="">&nbsp;&nbsp;&nbsp;Tweets & Facebook posts every 2 weeks  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/snow-dot.png" alt=""><img src="images/snow-dot.png" alt=""><img src="images/snow-dot.png" alt="">&nbsp;&nbsp; Determined on editional basis </p>
-    <div id="contact-btn"><button type="button" name="contact" class="btn"> CONTACT FOR MORE INFO </button></div>
+    <div id="contact-btn">
+      <a href="#contact" class="btn"> CONTACT FOR MORE INFO </a>
+    </div>
   </section>
 
 
@@ -320,7 +326,9 @@
         <p>Sponsorship (Events, Newsletters)</p>
       </div>
     </div>
-    <div id="talk-btn"><button type="button" name="contact" class="btn"> LET'S TALK </button></div>
+    <div id="talk-btn">
+      <a href="#contact" class="btn"> LET'S TALK </a>
+    </div>
   </section>
 
   <footer>
@@ -329,7 +337,11 @@
     </div>
     <p>Benzinga is a fast-growing, dynamic and innovative financial media outlet that empowers investors with high-quality, unique content.</p>
   </footer>
-
+  <div id="custom-modal" class="custom-modal">
+    <button class="close-modal">Close</button>
+    <div id="modal-body"></div>
+  </div>
+  <div class="modal-background"></div>
 </body>
 <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="js/owl.carousel.min.js"></script>
@@ -379,5 +391,33 @@ $('#slide-prev').click(function(){
   $('h3.nav02').click(function() {
     $('.drop-down').animate({top: "-100vh"}, 200);
   });
+
+  $('.showmodal').click(function(){
+    var target = $(this).data('target');
+    var content = $('#' + target).html();
+    $('#modal-body').html(content);
+    $('.custom-modal').fadeIn();
+    $('.modal-background').fadeIn();
+  })
+
+  $('.close-modal, .modal-background').click(function(){
+    $('#modal-body').html('');
+    $('.custom-modal').fadeOut();
+    $('.modal-background').fadeOut();
+  })
+jQuery(document).ready(function($) {
+  $('a[href^="#"]').bind('click.smoothscroll',function (e) {
+    e.preventDefault();
+    var target = this.hash,
+        $target = $(target);
+
+    $('html, body').stop().animate( {
+      'scrollTop': $target.offset().top-40
+    }, 900, 'swing', function () {
+      window.location.hash = target;
+    } );
+  } );
+} );
+
 </script>
 </html>
